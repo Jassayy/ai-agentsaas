@@ -5,6 +5,7 @@ import { User } from "@prisma/client";
 import { ArrowLeft, Plus, Zap } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import React from "react";
+import CreateWebinarButton from "../CreateWebinarButton/CreateWebinarButton";
 
 type Props = {
      user: User;
@@ -49,12 +50,7 @@ const Header = ({ user }: Props) => {
                               <Zap className="h-[18px] w-[18px]" />
                          </Button>
 
-                         <Button className="gap-2 rounded-md bg-primary hover:bg-primary/90 h-9">
-                              <Plus className="h-4 w-4" />
-                              <span className="hidden sm:inline">
-                                   Create webinar
-                              </span>
-                         </Button>
+                         <CreateWebinarButton />
                     </div>
                </div>
           </header>

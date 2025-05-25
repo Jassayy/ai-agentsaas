@@ -9,7 +9,7 @@ import UserInfoCard from "@/components/Reusablecomponents/UserInfo";
 
 const page = () => {
      return (
-          <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800 transition-colors duration-300">
+          <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-800 rounded-3xl dark:via-slate-900 dark:to-black transition-colors duration-300">
                {/* Hero Section */}
                <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24">
                     <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-20">
