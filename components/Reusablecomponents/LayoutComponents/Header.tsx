@@ -33,7 +33,7 @@ const Header = ({ user }: Props) => {
                                    </span>
                               </Button>
                          ) : (
-                              <h1 className="text-sm text-gray-900 dark:text-gray-100 px-2 py-1 capitalize border border-gray-700 rounded-lg ">
+                              <h1 className="text-sm text-gray-900 dark:text-gray-100 px-2 py-1 capitalize border border-gray-700 rounded-lg">
                                    {pathname.split("/")[1] || "Dashboard"}
                               </h1>
                          )}

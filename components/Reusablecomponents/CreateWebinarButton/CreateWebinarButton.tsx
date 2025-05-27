@@ -9,8 +9,8 @@ import {
 import { useWebinarStore } from "@/store/useWebinarStore";
 import { Plus } from "lucide-react";
 import React, { useState } from "react";
-import MultiStepForm from "./MultiStepForm";
 import BasicInfoStep from "./BasicInfoStep";
+import MultiStepForm from "./MultiStepForm";
 
 const CreateWebinarButton = () => {
      const { isModalOpen, setModalOpen, isComplete, setComplete } =
